@@ -14,3 +14,4 @@ DISABLE_DOCS=1 make bin/skopeo
 
 mkdir -p "$ASDF_INSTALL_PATH/bin"
 mv bin/skopeo "$ASDF_INSTALL_PATH/bin"
+rm -f "$godir/skopeo"
